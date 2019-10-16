@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	/*
+	  font-family: 'Roboto',Arial, sans-serif;
+	  font-family: 'Ubuntu',Arial, sans-serif;
+	  font-family: 'Oswald', sans-serif;
+	*/
+}
+html{
+	height:100%;
+}
+body{
+	height:100%;
+}
+.bg-main{
+	background: #96beff;
+}
+.img-thumb{
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position: 0 100%;
+	background-color: #0e587f;
+}
+.text-outline-bl{
+	text-shadow: 
+		-0   -3px 1px #0E587F,
+		 0   -3px 1px #0E587F,
+		-0    3px 1px #0E587F,
+		 0    3px 1px #0E587F,
+		-3px -0   1px #0E587F,
+		 3px -0   1px #0E587F,
+		-3px  0   1px #0E587F,
+		 3px  0   1px #0E587F,
+		-1px -3px 1px #0E587F,
+		 1px -3px 1px #0E587F,
+		-1px  3px 1px #0E587F,
+		 1px  3px 1px #0E587F,
+		-3px -1px 1px #0E587F,
+		 3px -1px 1px #0E587F,
+		-3px  1px 1px #0E587F,
+		 3px  1px 1px #0E587F,
+		-2px -3px 1px #0E587F,
+		 2px -3px 1px #0E587F,
+		-2px  3px 1px #0E587F,
+		 2px  3px 1px #0E587F,
+		-3px -2px 1px #0E587F,
+		 3px -2px 1px #0E587F,
+		-3px  2px 1px #0E587F,
+		 3px  2px 1px #0E587F,
+		-3px -3px 1px #0E587F,
+		 3px -3px 1px #0E587F,
+		-3px  3px 1px #0E587F,
+		 3px  3px 1px #0E587F,
+		-3px -3px 1px #0E587F,
+		 3px -3px 1px #0E587F,
+		-3px  3px 1px #0E587F,
+		 3px  3px 1px #0E587F;
+	letter-spacing:2px;
+}
+.text-outline-or{
+	text-shadow: 
+		-0   -2px 1px #ba7c00,
+		 0   -2px 1px #ba7c00,
+		-0    2px 1px #ba7c00,
+		 0    2px 1px #ba7c00,
+		-2px -0   1px #ba7c00,
+		 2px -0   1px #ba7c00,
+		-2px  0   1px #ba7c00,
+		 2px  0   1px #ba7c00,
+		-1px -2px 1px #ba7c00,
+		 1px -2px 1px #ba7c00,
+		-1px  2px 1px #ba7c00,
+		 1px  2px 1px #ba7c00,
+		-2px -1px 1px #ba7c00,
+		 2px -1px 1px #ba7c00,
+		-2px  1px 1px #ba7c00,
+		 2px  1px 1px #ba7c00,
+		-2px -2px 1px #ba7c00,
+		 2px -2px 1px #ba7c00,
+		-2px  2px 1px #ba7c00,
+		 2px  2px 1px #ba7c00,
+		-2px -2px 1px #ba7c00,
+		 2px -2px 1px #ba7c00,
+		-2px  2px 1px #ba7c00,
+		 2px  2px 1px #ba7c00;
+}
